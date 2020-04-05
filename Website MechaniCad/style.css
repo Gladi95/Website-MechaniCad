@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+  overflow-x:hidden;
+  font-family: 'Lato', sans-serif;
+  color: #505962
+}
+
+.offset:before {
+  height: 3.8rem;
+  margin-top: -3.8rem;
+  content: "";
+  display: block;
+}
+
+
+/* Navbar */
+
+.navbar {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: .1rem;
+  background: rgba(0, 0, 0, .6) !important;
+}
+
+.navbar-brand img {
+  height: 3rem;
+  margin-left: 1rem;
+}
+
+.navbar-nav li {
+  padding-left: .7rem;
+}
+
+.navbar-dark  .navbar-nav .navbar-link {
+  color: white;
+  padding-top: .8rem;
+
+}
+
+.navbar-dark  .navbar-nav .nav-link.active,
+.navbar-dark  .navbar-nav .nav-link:hover {
+  color: #00adef
+}
+
+
+/* .carousel-item {
+  height: 100vh;
+} */
+
+.carousel-item {
+  height: 100vh; 
+  background-repeat: no-repeat;  
+  background-position: center;
+  background-size: 100% 100%; 
+}
+
+.carousel-caption {
+  position: absolute;
+  top:30%;
+}
+
+img.hydrive_logo {
+  width: 50%;
+  height: 50%;
+}
+
+.container-bg {
+  background: black ;
+  color: white;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.container-bg img {
+  max-width: 100%;
+  transition: transform 0.5s ease ;
+  margin: 1rem 2rem;
+  padding: 0rem 3rem;
+  
+}
+
+
+.container-bg img:hover {
+    transform: scale(1.4);
+    cursor: zoom-in;
+  
+}
+
+.container-bg p {
+  padding-bottom: 20%;
+  padding-top: 2rem;
+ }
+
+.narrow {
+  width: 75%;
+  margin: 1.5rem auto;
+  padding-top: 2rem;
+}
+
+.narrow h1 {
+  font-size: 2.4rem;
+}
+
+.shell {
+  margin-top: 2rem;
+  transition: transform 0.5s ease ;
+  max-width: 120%;
+}
+
+.shell:hover {
+  transform: scale(1.1);
+  
+
+}
+
+.jumbotron {
+  border-radius: 0;
+  padding: 3re 0 2rem;
+  margin-bottom: 0;
+}
+h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: #00adef;
+  margin: 0 auto 2rem;
+}
+
+/* .portfolio {
+  overflow: hidden;
+} */
+
+.portfolio img {
+  max-width: 100%;
+  transition: transform 0.5s ease ;
+}
+
+.portfolio img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+
+}
+
+.fixed {
+  background-image: url(img/Hydrive\ Shell\ Eco-marathon\ Photo\ uncut.jpg);
+  z-index: -1;
+  margin: auto;
+}
+
+.dark {
+  background-color: rgba(0, 0, 0, .69);
+  color: white;
+  padding: 10rem 2rem;
+}
+
+.fixed-background h3 {
+  margin-bottom: 2rem;
+}
+
+.fixed-background p {
+  margin-top: 1rem;
+}
+
+
+.card {
+  margin: 2rem;
+  transition: transform 0.5s ease ;
+  padding-bottom: 2.5rem;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+  box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#Kontakt img {
+  max-width: 100%;
+
+}
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding-top: 2rem;
+  padding-bottom: 3rem ;
+  margin-top: 1rem;
+}
+
+footer img {
+  height: 5rem;
+  margin: 2rem 0;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 2rem;
+  margin: 1.2rem .5rem .5rem .5rem ;
+}
+
+footer svg.svg-inline--fa:hover {
+  color: #00adef
+}
+
+hr.socket {
+  border-top: .2rem solid  #00adef;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .narrow h1 {
+    font-size: 1.5rem;
+  }
+  p.lead {
+    font-size: 1rem;
+  }
+}
+
+.mobile-image{
+  display: block;
+  }
+
+.desktop-image{
+  display: none;
+  }
+
+@media (min-width:992px){
+  .mobile-image{
+  display: none;
+  }
+  .desktop-image{
+  display: block;
+  }
+  }
+
+
+
+
+ 
