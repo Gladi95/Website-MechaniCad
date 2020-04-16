@@ -27,7 +27,16 @@ body {
 .navbar-brand img {
   height: 3rem;
   margin-left: 1rem;
+  margin: 0 0;
+  padding: 0 0;
+  max-width: 100%;
 }
+
+.flag {
+  height:10%;
+  width: 20%;
+}
+
 
 .navbar-nav li {
   padding-left: .7rem;
@@ -226,6 +235,13 @@ hr.socket {
   p.lead {
     font-size: 1rem;
   }
+  .navbar-nav {
+    float: right;
+    margin: 0;
+  }
+  .navbar-nav > li {
+    float: right;
+  }
 }
 
 .mobile-image{
@@ -243,7 +259,12 @@ hr.socket {
   .desktop-image{
   display: block;
   }
-  }
+  
+  /* .navbar-brand img{
+    max-width: 100%;
+    
+  } */
+}
 
 
 
