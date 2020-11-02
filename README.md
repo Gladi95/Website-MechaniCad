@@ -1,2 +1,2 @@
 # Website-MechaniCad-
-Project Hydrive Web page (one page)
+One page website for students scientific association Project Hydrive on AGH University.
